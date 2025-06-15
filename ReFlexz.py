@@ -20,6 +20,7 @@ DISCORD_CHANNEL_ID = 1296023140010426368  # เปลี่ยนเป็นข
 
 last_video_id = None
 
+print("TOKEN: ", TOKEN)
 @bot.event
 async def on_ready():
     print(f"Bot is online as {bot.user}")
